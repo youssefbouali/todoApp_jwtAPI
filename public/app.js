@@ -10,7 +10,6 @@ function isJSON(str) {
 }
 
 
-// Function to post form data with authorization header
 function postData(api, getMethod, formData) {
     const token = localStorage.getItem('token');
     //if (!token) {
@@ -91,7 +90,7 @@ function createHeader() {
 
 	const link0 = document.createElement('a');
 	link0.href = "/homePage";
-	link0.textContent = 'home';
+	link0.textContent = 'Home';
 	li0.appendChild(link0);
 
 	ulnav.appendChild(li0);
